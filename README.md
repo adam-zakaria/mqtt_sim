@@ -17,8 +17,3 @@ brew services start mosquitto
 
 # Run
 `python test_mqtt.py`
-
-# Notes
-Since pytest automatically discovers test functions, test_mqtt.py doesn’t have a main() function. If you're running it directly with python test_mqtt.py, it won't execute anything because pytest is designed to discover and run functions prefixed with test_.
-
-The code can be changed to be used without pytest by putting the asserts directly in main.
