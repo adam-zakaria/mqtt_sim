@@ -3,7 +3,7 @@ This project protoypes MQTT messages simulation and a production CI / CD pipelin
 
 It installs a Mosqito MQTT broker, publishes messages on a topic, and subscribes to messages  on the topic. Then, it tests the messages are sent.
 
-Github actions file: .github/workflows/mqtt-test.yml
+Github actions file: `.github/workflows/mqtt-test.yml`
 
 # Install (MacOS)
 ## Python Packages

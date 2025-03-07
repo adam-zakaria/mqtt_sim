@@ -1,10 +1,3 @@
-"""
-Since pytest automatically discovers test functions, test_mqtt.py doesn’t have a main() function. If you're running it directly with python test_mqtt.py, it won't execute anything because pytest is designed to discover and run functions prefixed with test_.
-
-# Run
-pytest -s test_mqtt.py
-"""
-
 import paho.mqtt.client as mqtt
 import json, time
 
