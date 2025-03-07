@@ -25,7 +25,7 @@ jobs:
           python-version: "3.9"
 
       - name: Install Dependencies
-        run: pip install pytest paho-mqtt
+        run: pip install paho-mqtt
 
-      - name: Run Tests
-        run: pytest test_mqtt.py
+      - name: Run MQTT Test
+        run: python test_mqtt.py
